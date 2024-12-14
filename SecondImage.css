@@ -1,0 +1,45 @@
+
+body{
+   background-color:  #fffff1;
+}
+
+.txt{
+    margin: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: #eaeaed;
+}
+
+.first{
+    /* background-color: rgb(218, 19, 19); */
+font-size: small;
+    display: inline;
+}
+.second{
+    /* background-color: rgb(39, 198, 143); */
+font-size: small;
+    display: inline;
+}
+.third{
+    /* background-color: rgb(118, 19, 218); */
+font-size: small;
+    display: inline;
+}
+.scroll{
+    
+border-top-style: solid;
+border-bottom-style: solid;
+
+
+    position: absolute;
+    top: 200px;
+    right: "100%";
+     padding: 5px;
+    background-color: #fffff1;
+    width: 650px;
+    height: 70px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
